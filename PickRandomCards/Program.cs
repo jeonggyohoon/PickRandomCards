@@ -19,7 +19,7 @@ namespace PickRandomCards
 
                 if (int.TryParse(line, out numberOfCards))
                 {
-                    foreach (string card in CardPicker.PickSomeCards(numberOfCards))
+                    foreach (string card in CardPicker.PickSomeCards(numberOfCards)) 
                     {
                         Console.WriteLine(card);
                     }
